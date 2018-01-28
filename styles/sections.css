@@ -1,0 +1,28 @@
+section {
+	height: 100%;
+	width: 100%;
+	display: table;
+}
+
+section h2 {
+	margin-top: 60px;
+	font-family: Patua One, sans-serif;
+	font-size: 250%;
+	color: #2c2c2c;
+	text-align: center;
+	text-decoration: none;
+	font-weight: 900;
+	padding: 1%;
+}
+
+#sobre {
+	background: #ecf0f1;
+}
+
+#teste {
+	background: #3498db;
+}
+
+#contato {
+	background: #e74c3c;
+}

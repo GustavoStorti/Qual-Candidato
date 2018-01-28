@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8"/>
+	<title>Qual Candidato - Contato</title>
+	<link rel="stylesheet" type="text/css" href="https://meyerweb.com/eric/tools/css/reset/reset.css"/>
+	<link rel="stylesheet" type="text/css" href="styles/fonts.css"/>
+	<link rel="stylesheet" type="text/css" href="styles/contact-form.css"/>
+</head>
+<body>
+	<form action="contact-form.php" method="post">
+		<fieldset>
+			<label for="name">Nome:</label>
+			<input type="text" name="name" maxlength="60" required>
+			<label for="email">E-mail:</label>
+			<input type="email" name="email" maxlength="50" required>
+			<label for="reason">Motivo do contato: </label>
+			<select name="reason" required>
+				<option value="Sugestão">Sugestão</option>
+				<option value="Reportar Erro">Reportar Erro</option>
+				<option value="Dúvida">Dúvida</option>
+				<option value="Crítica">Crítica</option>
+				<option value="Elogio">Elogio</option>
+			</select> 
+			<label for="message">Mensagem:</label>
+			<textarea name="message" maxlength="600" required></textarea>
+		</fieldset>
+		<button type="submit">Enviar</button> 
+	</form>
+</body>
+</html>

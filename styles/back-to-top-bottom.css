@@ -1,0 +1,20 @@
+.voltar-ao-topo {
+	display: none;
+	position: fixed;
+	bottom: 25px;
+	right: 25px;
+	padding: 12px;
+	width: 10px;
+	height: 10px;
+	background-color: rgba(0, 0, 0, 0.3);
+	border-radius: 20%;
+	font-family: sans-serif;
+	font-size: 12px;
+	color: #fff;
+	text-align: center;
+}
+
+.voltar-ao-topo:hover {
+	background-color: rgba(0, 0, 0, 0.6);
+	text-decoration: none;
+}

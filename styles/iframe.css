@@ -1,0 +1,13 @@
+iframe {
+  width: 100%;
+  border: none;
+  overflow: hidden;
+}
+
+.contact-iframe {
+  height: 600px;
+}
+
+.test-iframe {
+	height: 1500px;
+}

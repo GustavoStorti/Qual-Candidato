@@ -1,0 +1,147 @@
+/*AJUSTAAAAAAAAAAAAR*/ 
+
+@media (min-width: 0px) {
+  #cabecalho hgroup {
+    font-size: 0.35em;
+  }
+  .menu {
+    font-size: 0.55em;
+  }
+
+  p {
+    font-size: 0.8em;
+  }
+
+  section h2 {
+    font-size: 0.7em;
+  }
+}
+@media (min-width: 320px) {
+  #cabecalho hgroup {
+    font-size: 0.5em;
+  }
+  .menu {
+    font-size: 0.7em;
+  }
+
+  p {
+    font-size: 0.9em;
+  }
+
+  section h2 {
+    font-size: 0.8em;
+  }
+}
+@media (min-width: 380px) {
+  #cabecalho hgroup {
+    font-size: 0.6em;
+  }
+  .menu {
+    font-size: 0.8em;
+  }
+
+  p {
+    font-size: 0.9em;
+  }
+
+  section h2 {
+    font-size: 0.8em;
+  }
+}
+@media (min-width: 500px) {
+  #cabecalho hgroup {
+    font-size: 0.7em;
+  }
+  .menu {
+    font-size: 0.85em;
+  }
+
+  p {
+    font-size: 0.95em;
+  }
+
+  section h2 {
+    font-size: 0.85em;
+  }
+}
+@media (min-width: 900px) {
+  #cabecalho hgroup {
+    font-size: 0.85em;
+  }
+  .menu {
+    font-size: 0.9em;
+  }
+
+  p {
+    font-size: 1em;
+  }
+
+  section h2 {
+    font-size: 0.85em;
+  }
+  @media (min-width: 1000px) {
+    #cabecalho hgroup {
+      font-size: 0.9em;
+    }
+    .menu {
+      font-size: 0.95em;
+    }
+
+    p {
+      font-size: 1em;
+    }
+
+    section h2 {
+      font-size: 1em;
+    }
+  }
+
+  @media (min-width: 1200px) {
+    #cabecalho hgroup {
+      font-size: 0.95em;
+    }
+    .menu {
+      font-size: 0.95em;
+    }
+
+    p {
+      font-size: 1em;
+    }
+
+    section h2 {
+      font-size: 1em;
+    }
+  }
+  @media (min-width: 1300px) {
+    #cabecalho hgroup {
+      font-size: 1em;
+    }
+    .menu {
+      font-size: 1em;
+    }
+
+    p {
+      font-size: 1.1em;
+    }
+
+    section h2 {
+      font-size: 1em;
+    }
+  }
+
+  @media (min-width: 1800px) {
+    #cabecalho hgroup {
+      font-size: 1.2em;
+    }
+    .menu {
+      font-size: 1.2em;
+    }
+
+    p {
+      font-size: 1.2em;
+    }
+
+    section h2 {
+      font-size: 1em;
+    }
+  }

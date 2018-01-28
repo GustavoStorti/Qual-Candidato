@@ -1,0 +1,46 @@
+.menu {
+ /*   margin: 0;
+    padding: 0;
+    top: 0; 
+    list-style-type: none;*/
+	position: fixed;
+	width: 100%;
+	line-height: 287.5%;
+	overflow: hidden;
+}
+.menu ul {
+	display: table;
+	margin: auto;
+	/*list-style: none;
+	text-transform: uppercase;*/
+}
+.menu ul li {
+	float: left;
+}
+.menu ul li a {
+	font-family: Patua One, sans-serif;
+	padding: 93.75% 30px;
+	font-size: 125%;
+	text-decoration: none;
+	color: rgba(255,255,255,.9);
+	font-weight: 900;
+}
+
+.menu-inicio {
+	background-color: rgba(0,0,0,0);
+	transition: 1s;
+}
+
+.menu-inicio ul li a:hover {
+	background-color: rgba(0,0,0,.4);
+}
+
+.menu-rolagem {
+	z-index: 99;
+	background-color: rgba(0,0,0,.6);
+	transition: 1s;
+}
+
+.menu-rolagem ul li a:hover {
+	background-color: rgba(0,0,0,.7);
+}

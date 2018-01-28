@@ -1,0 +1,28 @@
+/*Início do Cabeçalho*/
+.cabecalho {
+	background: url("../images/palacio-da-alvorada.jpg") no-repeat 50% 50%; /*não repete de deixa no centro*/
+	height: 100%;
+	width: 100%;
+	background-size: cover;
+	display: table;
+}
+
+.cabecalho hgroup {
+	font-family: Merriweather Sans, sans-serif;
+	display: table-cell;
+	vertical-align: middle;
+	color: #fff;
+	text-align: center;
+	font-weight: 900;
+}
+
+.cabecalho hgroup h1 {
+	font-size: 400%;
+	text-shadow:5px 5px 10px black;
+}
+
+.cabecalho hgroup h2 {
+	font-size: 168.75%;
+	text-shadow:#000 1px -1px 5px, #000 -1px 1px 5px, #000 1px 1px 5px, #000 -1px -1px 5px;
+	margin-top: 3%;
+}
