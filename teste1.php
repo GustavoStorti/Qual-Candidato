@@ -8,6 +8,7 @@
 	<link rel="stylesheet" type="text/css" href="styles/test-form.css"/>
 	<script type="text/javascript" src="scripts/jquery-3.2.1.min.js"></script>
 	<script type="text/javascript">
+		/*
 		jQuery(document).ready(function() {
 			$("#submit-button").click(function() {
 				window.parent.$('html, body').animate({
@@ -15,6 +16,7 @@
 				}, 900);
 			});
 		});
+		*/
 	</script>
 </head>
 <body>

@@ -9,11 +9,9 @@
 	<script type="text/javascript" src="scripts/jquery-3.2.1.min.js"></script>
 	<script type="text/javascript">
 		jQuery(document).ready(function() {
-			$("#submit-button").click(function() {
-				window.parent.$('html, body').animate({
-					scrollTop: $("#submit-button").offset().top
-				}, 900);
-			});
+			window.parent.$('html, body').animate({
+				scrollTop: $("#submit-button").offset().top
+			}, 900);
 		});
 	</script>
 </head>
