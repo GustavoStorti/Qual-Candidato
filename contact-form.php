@@ -38,8 +38,8 @@ error_reporting(E_ALL);
 $name = $_POST['name'];
 $email = $_POST['email'];
 $reason = $_POST['reason'];
-$message = "NOME:  $name\n";
-$message .= "E-MAIL: $email\n";
+$message = "NOME:  $name\n\n";
+$message .= "E-MAIL: $email\n\n";
 $message .= "MENSAGEM: ".$_POST['message'];
 
 $to = "contato@qualcandidato.com.br";
