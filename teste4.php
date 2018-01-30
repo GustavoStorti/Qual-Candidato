@@ -12,6 +12,11 @@
 			window.parent.$('html, body').animate({
 				scrollTop: $("#submit-button").offset().top
 			}, 900);
+			$("#submit-button").click(function() {
+				window.parent.$('html, body').animate({
+					scrollTop: $("#submit-button").offset().top
+				}, 900);
+			});
 		});
 	</script>
 </head>
