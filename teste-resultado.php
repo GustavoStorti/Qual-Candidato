@@ -43,6 +43,6 @@
 
 	$mysqli->query($add);
 	?>
-	<img src="gerar.php">
+	<img src="teste-politico-img.php">
 </body>
 </html>
