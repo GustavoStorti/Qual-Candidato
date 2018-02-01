@@ -1,8 +1,4 @@
 .menu {
- /*   margin: 0;
-    padding: 0;
-    top: 0; 
-    list-style-type: none;*/
 	position: fixed;
 	width: 100%;
 	line-height: 287.5%;
@@ -11,8 +7,6 @@
 .menu ul {
 	display: table;
 	margin: auto;
-	/*list-style: none;
-	text-transform: uppercase;*/
 }
 .menu ul li {
 	float: left;

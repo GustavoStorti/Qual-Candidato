@@ -9,10 +9,9 @@ form {
   border-radius: 8px;
 }
 
-
 button {
   padding: 19px 39px 18px 39px;
-  color: #FFF;
+  color: #fff;
   background-color: #4bc970;
   font-size: 18px;
   text-align: center;
@@ -30,16 +29,14 @@ fieldset {
   border: none;
 }
 
-
-.question {
+.questao {
   font-weight: 600;
   font-size: 20px;
   display: block;
   margin: 30px 10px 10px 10px;
 }
 
-
-.question-number {
+.questao-numero {
   background-color: #5fcf80;
   color: #fff;
   height: 30px;
@@ -53,6 +50,54 @@ fieldset {
   border-radius: 100%;
 }
 
+.resposta {
+  flex: 0 80%;
+}
+.resposta-item:hover label {
+  color: #4bc970;
+}
+.resposta-item:hover .escolha::before {
+  border: 7px solid #4bc970;
+  margin-right: 30px;
+}
+
+.radio-btn {
+  position: absolute;
+  opacity: 0;
+
+}
+.radio-btn:checked ~ .escolha {
+  color: #4bc970;
+}
+.radio-btn:checked ~ .escolha::before {
+  margin-right: 30px;
+  border: 7px solid #4bc970;
+  background: #F8F7FF;
+}
+
+.escolha {
+  display: flex;
+  align-items: center;
+  padding: 5px 0 5px 20px;
+  color: #F8F7FF;
+  font-size: 16px;
+  font-weight: 300;
+  cursor: pointer;
+  transition: all 0.25s linear;
+}
+
+.escolha::before {
+  display: block;
+  content: '';
+  border: 3px solid #F8F7FF;
+  border-radius: 50%;
+  height: 8px;
+  width: 8px;
+  margin-right: 10px;
+  transition: all .25s linear;
+}
+
+/*REVER*/
 @media screen and (min-width: 480px) {
 
   form {
@@ -67,52 +112,4 @@ fieldset {
     max-width: 980px;
   }
 
-}
-
-
-.answer {
-  flex: 0 80%;
-}
-.answer-item:hover label {
-  color: #4bc970;
-}
-.answer-item:hover .choise::before {
-  border: 7px solid #4bc970;
-  margin-right: 30px;
-}
-
-.radio-btn {
-  position: absolute;
-  opacity: 0;
-
-}
-.radio-btn:checked ~ .choise {
-  color: #4bc970;
-}
-.radio-btn:checked ~ .choise::before {
-  margin-right: 30px;
-  border: 7px solid #4bc970;
-  background: #F8F7FF;
-}
-
-.choise {
-  display: flex;
-  align-items: center;
-  padding: 5px 0 5px 20px;
-  color: #F8F7FF;
-  font-size: 16px;
-  font-weight: 300;
-  cursor: pointer;
-  transition: all 0.25s linear;
-}
-
-.choise::before {
-  display: block;
-  content: '';
-  border: 3px solid #F8F7FF;
-  border-radius: 50%;
-  height: 8px;
-  width: 8px;
-  margin-right: 10px;
-  transition: all .25s linear;
 }

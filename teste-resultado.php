@@ -6,15 +6,15 @@
 <body>
 	<?php 
 	session_start();
-	$q1 = $_SESSION['q1'];
-	$q2 = $_SESSION['q2'];
-	$q3 = $_SESSION['q3'];
-	$q4 = $_SESSION['q4'];
-	$q5 = $_SESSION['q5'];
-	$q6 = $_SESSION['q6'];
-	$q7 = $_SESSION['q7'];
-	$q8 = $_SESSION['q8'];
-	$q9 = $_SESSION['q9'];
+	$q1  = $_SESSION['q1'];
+	$q2  = $_SESSION['q2'];
+	$q3  = $_SESSION['q3'];
+	$q4  = $_SESSION['q4'];
+	$q5  = $_SESSION['q5'];
+	$q6  = $_SESSION['q6'];
+	$q7  = $_SESSION['q7'];
+	$q8  = $_SESSION['q8'];
+	$q9  = $_SESSION['q9'];
 	$q10 = $_SESSION['q10'];
 	$q11 = $_SESSION['q11'];
 	$q12 = $_SESSION['q12'];

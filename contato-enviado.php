@@ -1,12 +1,5 @@
-<link rel="stylesheet" type="text/css" href="styles/fonts.css"/>
+<link rel="stylesheet" type="text/css" href="styles/fontes.css"/>
 <style type="text/css">
-iframe#contato-iframe {
-	width: 100%;
-	height: 600px;
-	border: none;
-	overflow: hidden;
-} 
-/*Página form.php*/
 .form-message {
 	font-family: 'Nunito', sans-serif;
 	max-width: 350px;
@@ -31,21 +24,10 @@ iframe#contato-iframe {
 </style>
 
 <?php 
-ini_set('display_errors', 1);
-error_reporting(E_ALL);
-
-
-$name = $_POST['name'];
-$email = $_POST['email'];
-$reason = $_POST['reason'];
-$message = "NOME:  $name\n\n";
-$message .= "E-MAIL: $email\n\n";
-$message .= "MENSAGEM: ".$_POST['message'];
-
 $to = "contato@qualcandidato.com.br";
-$subject = "Contato - ".$reason;
-$header = "From: $email\r\n";
-$header .= "Content-Type: text/plain; charset=utf-8\r\n"; 
+$subject = "Contato - ".$_POST['motivo'];
+$message = "NOME:  ".$_POST['name']."\nE-MAIL:  ".$_POST['email']."\nMENSAGEM:\n".$_POST['message'];
+$header = "From: envio@qualcandidato.com.br\r\nContent-Type: text/plain; charset=utf-8\r\n";
 
 if (mail($to, $subject, $message, $header)) { ?>	
 <p class="form-message">Mensagem enviada com sucesso!</p>
