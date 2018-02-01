@@ -18,7 +18,11 @@
 <body>
 	<?php 
 	session_start();
-	$_SESSION['x'] = $_POST['question6'] + $_POST['question7'] + $_POST['question8'] + $_POST['question9'] + $_POST['question10'];
+	$_SESSION['q6'] = $_POST['question6'];
+	$_SESSION['q7'] = $_POST['question7'];
+	$_SESSION['q8'] = $_POST['question8'];
+	$_SESSION['q9'] = $_POST['question9'];
+	$_SESSION['q10'] = $_POST['question10'];
 	?>
 
 	<!--Início do Teste-->
