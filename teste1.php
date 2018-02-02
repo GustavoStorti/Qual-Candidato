@@ -35,7 +35,7 @@
 				</li>
 				<li class="resposta-item">
 					<input type="radio" name="question1" class="radio-btn" value="0" id="1c" />
-					<label for="1c" class="escolha">Não Sei</label>
+					<label for="1c" class="escolha">Neutro / Não Sei</label>
 				</li>
 				<li class="resposta-item">
 					<input type="radio" name="question1" class="radio-btn" value="1" id="1d" />
@@ -59,7 +59,7 @@
 				</li>
 				<li class="resposta-item">
 					<input type="radio" name="question2" class="radio-btn" value="0" id="2c" />
-					<label for="2c" class="escolha">Não Sei</label>
+					<label for="2c" class="escolha">Neutro / Não Sei</label>
 				</li>
 				<li class="resposta-item">
 					<input type="radio" name="question2" class="radio-btn" value="1" id="2d" />
@@ -83,7 +83,7 @@
 				</li>
 				<li class="resposta-item">
 					<input type="radio" name="question3" class="radio-btn" value="0" id="3c" />
-					<label for="3c" class="escolha">Não Sei</label>
+					<label for="3c" class="escolha">Neutro / Não Sei</label>
 				</li>
 				<li class="resposta-item">
 					<input type="radio" name="question3" class="radio-btn" value="1" id="3d" />
@@ -107,7 +107,7 @@
 				</li>
 				<li class="resposta-item">
 					<input type="radio" name="question4" class="radio-btn" value="0" id="4c" />
-					<label for="4c" class="escolha">Não Sei</label>
+					<label for="4c" class="escolha">Neutro / Não Sei</label>
 				</li>
 				<li class="resposta-item">
 					<input type="radio" name="question4" class="radio-btn" value="1" id="4d" />
@@ -131,7 +131,7 @@
 				</li>
 				<li class="resposta-item">
 					<input type="radio" name="question5" class="radio-btn" value="0" id="5c" />
-					<label for="5c" class="escolha">Não Sei</label>
+					<label for="5c" class="escolha">Neutro / Não Sei</label>
 				</li>
 				<li class="resposta-item">
 					<input type="radio" name="question5" class="radio-btn" value="1" id="5d" />
