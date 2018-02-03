@@ -5,6 +5,8 @@ footer {
 }
 
 footer p{
+	font-family: Merriweather Sans, sans-serif;
+	padding: 1% 0;
 	text-align: center;
 	font-size: 22px;
 	color: #222222;

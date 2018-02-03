@@ -3,26 +3,3 @@ body, html {
 	width: 100%;
 	background: #34495e;
 }
-
-p {
-	font-family: Merriweather Sans, sans-serif;
-	color: #2c2c2c;
-	font-size: 110%;
-	line-height: 150%; /*espaço entre as linhas */
-	text-align: justify;
-	text-indent: 4%;
-	font-weight: 400; /*espessura*/
-	padding: 1% 5%;
-}
-
-strong {
-	font-weight: 700;
-}
-
-.ilustracao {
-	position: relative;
-	text-align: center;
-	width: auto;
-	height: auto;
-	padding-bottom: 1%;
-}
