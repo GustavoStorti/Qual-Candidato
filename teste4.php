@@ -32,6 +32,7 @@
 
 	<!--Início do Teste-->
 	<form action="teste-resultado.php" method="post">
+		<h2>Sobre liberdade econômica</h2>
 		<fieldset>
 			<label for="question16" class="questao"> <span class="questao-numero">16</span> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras tortor nunc, aliquam vitae laoreet blandit, laoreet eget felis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras tortor nunc, aliquam vitae laoreet blandit, laoreet eget felis?</label>
 			<ul class="resposta">

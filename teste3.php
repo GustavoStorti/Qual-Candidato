@@ -27,6 +27,7 @@
 
 	<!--Início do Teste-->
 	<form action="teste4.php" method="post">
+		<h2>Sobre liberdades individuais</h2>
 		<fieldset>
 			<label for="question11" class="questao"> <span class="questao-numero">11</span> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras tortor nunc, aliquam vitae laoreet blandit, laoreet eget felis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras tortor nunc, aliquam vitae laoreet blandit, laoreet eget felis?</label>
 			<ul class="resposta">
