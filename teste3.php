@@ -4,7 +4,6 @@
 	<meta charset="UTF-8"/>
 	<title>Qual Candidato - Teste</title>
 	<link rel="stylesheet" type="text/css" href="styles/resetar.css"/>
-	<link rel="stylesheet" type="text/css" href="styles/fontes.css"/>
 	<link rel="stylesheet" type="text/css" href="styles/teste.css"/>
 	<script type="text/javascript" src="scripts/jquery-3.2.1.min.js"></script>
 	<script type="text/javascript">

@@ -4,7 +4,6 @@
 	<meta charset="UTF-8"/>
 	<title>Qual Candidato - Teste</title>
 	<link rel="stylesheet" type="text/css" href="styles/resetar.css"/>
-	<link rel="stylesheet" type="text/css" href="styles/fontes.css"/>
 	<link rel="stylesheet" type="text/css" href="styles/teste.css"/>
 	<script type="text/javascript" src="scripts/jquery-3.2.1.min.js"></script>
 	<script type="text/javascript">
@@ -27,7 +26,7 @@
 
 	<!--Início do Teste-->
 	<form action="teste3.php" method="post">
-		<h2>Sobre liberdade econômica</h2>
+		<h2>Sobre liberdades econômicas</h2>
 		<fieldset>
 			<label for="question6" class="questao"> <span class="questao-numero">6</span> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras tortor nunc, aliquam vitae laoreet blandit, laoreet eget felis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras tortor nunc, aliquam vitae laoreet blandit, laoreet eget felis?</label>
 			<ul class="resposta">

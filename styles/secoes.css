@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css?family=Merriweather+Sans');
+@import url('https://fonts.googleapis.com/css?family=Patua+One');
+
 section {
 	height: 100%;
 	width: 100%;
@@ -6,7 +9,7 @@ section {
 
 section h2 {
 	margin-top: 60px;
-	font-family: Patua One, sans-serif;
+	font-family: 'Patua One', sans-serif;
 	font-size: 250%;
 	color: #2c2c2c;
 	text-align: center;
@@ -16,7 +19,7 @@ section h2 {
 }
 
 section p {
-	font-family: Merriweather Sans, sans-serif;
+	font-family: 'Merriweather Sans', sans-serif;
 	color: #2c2c2c;
 	font-size: 110%;
 	line-height: 150%; /*espaço entre as linhas */
