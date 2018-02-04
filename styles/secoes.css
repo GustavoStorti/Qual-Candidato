@@ -39,6 +39,7 @@ section strong {
 	width: auto;
 	height: auto;
 	padding-bottom: 1%;
+	max-width: 100%;
 }
 
 #sobre {

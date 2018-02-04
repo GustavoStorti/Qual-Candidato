@@ -2,10 +2,10 @@
 @import url('https://fonts.googleapis.com/css?family=Nunito');
 
 form {
+  max-width: 90%;
   font-family: 'Patua One', sans-serif;
   color: #fff;
   box-sizing: border-box;
-  max-width: 300px;
   margin: 30px auto;
   padding: 10px 20px;
   background: rgba(0,0,0,0.3);
@@ -108,19 +108,60 @@ h2 {
   text-align: center;
 }
 
-/*REVER*/
-@media screen and (min-width: 480px) {
 
-  form {
-    max-width: 480px;
+@media screen and (max-width: 420px) {
+
+  .questao {
+    font-size: 17px;
+    margin: 30px 0 10px 0;
   }
 
+  .questao-numero {
+    font-size: 0.9em;
+    height: 22px;
+    width: 22px;
+    line-height: 22px;
+    margin-bottom: 2px;
+  }
+
+  .escolha {
+    font-size: 13px;
+  }
+
+  h2 {
+    font-size: 26px;
+  }
 } 
 
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 421px) and (max-width: 600px) {
+
+  .questao {
+    font-size: 20px;
+    margin: 30px 0 10px 0;
+  }
+
+  .questao-numero {
+    font-size: 0.9em;
+    height: 26px;
+    width: 26px;
+    line-height: 26px;
+    margin-bottom: 2px;
+  }
+
+  .escolha {
+    font-size: 15px;
+  }
+
+  h2 {
+    font-size: 26px;
+  }
+} 
+
+/*Distância lateral*/
+@media screen and (min-width: 601px) {
 
   form {
-    max-width: 980px;
+    max-width: 80%;
   }
 
 }
