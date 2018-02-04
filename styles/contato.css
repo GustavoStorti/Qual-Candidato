@@ -25,10 +25,11 @@ select {
 }
 
 button {
+  font-family: 'Nunito', sans-serif;
   padding: 19px 39px 18px 39px;
   color: #FFF;
   background-color: #4bc970;
-  font-size: 18px;
+  font-size: 20px;
   border-radius: 5px;
   width: 100%;
   border: 1px solid #3ac162;

@@ -1,5 +1,5 @@
 form {
-  font-family: 'Nunito', sans-serif;
+  font-family: Patua One, sans-serif;
   color: #fff;
   box-sizing: border-box;
   max-width: 300px;
@@ -10,10 +10,11 @@ form {
 }
 
 button {
+  font-family: 'Nunito', sans-serif;
   padding: 19px 39px 18px 39px;
   color: #fff;
   background-color: #4bc970;
-  font-size: 18px;
+  font-size: 20px;
   text-align: center;
   font-style: normal;
   border-radius: 5px;
@@ -30,6 +31,7 @@ fieldset {
 }
 
 .questao {
+  font-family: 'Nunito', sans-serif;
   font-weight: 600;
   font-size: 20px;
   display: block;
@@ -101,7 +103,6 @@ h2 {
   margin-top: 30px;
   font-size: 35px;
   text-align: center;
-  font-weight: 600;
 }
 
 /*REVER*/
