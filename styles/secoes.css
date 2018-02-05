@@ -33,12 +33,13 @@ section strong {
 	font-weight: 700;
 }
 
-.ilustracao {
-	position: relative;
+section figure {
 	text-align: center;
-	width: auto;
-	height: auto;
 	padding-bottom: 1%;
+}
+
+section img {
+	width: auto;
 	max-width: 100%;
 }
 

@@ -28,7 +28,7 @@
 	<form action="teste4.php" method="post">
 		<h2>Sobre liberdades individuais</h2>
 		<fieldset>
-			<label for="question11" class="questao"> <span class="questao-numero">11</span> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras tortor nunc, aliquam vitae laoreet blandit, laoreet eget felis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras tortor nunc, aliquam vitae laoreet blandit, laoreet eget felis?</label>
+			<label for="question11" class="questao"> <span class="questao-numero">11</span> Um casal do mesmo sexo em uma relação amorosa estável deveria ter a possibilidade de adotar uma criança.</label>
 			<ul class="resposta">
 				<li class="resposta-item">
 					<input type="radio" name="question11" class="radio-btn" value="-2" id="11a" required />
@@ -52,14 +52,14 @@
 				</li>
 			</ul>
 
-			<label for="question12" class="questao"><span class="questao-numero">12</span> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras tortor nunc, aliquam vitae laoreet blandit, laoreet eget felis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras tortor nunc, aliquam vitae laoreet blandit, laoreet eget felis?</label>
+			<label for="question12" class="questao"><span class="questao-numero">12</span> A intervenção militar de 1964 não foi um golpe, mas um contragolpe necessário para impedir o perigo comunista no Brasil.</label>
 			<ul class="resposta">
 				<li class="resposta-item">
-					<input type="radio" name="question12" class="radio-btn" value="-2" id="12a" required />
+					<input type="radio" name="question12" class="radio-btn" value="2" id="12a" required />
 					<label for="12a" class="escolha">Discordo Totalmente</label>
 				</li>
 				<li class="resposta-item">
-					<input type="radio" name="question12" class="radio-btn" value="-1" id="12b" />
+					<input type="radio" name="question12" class="radio-btn" value="1" id="12b" />
 					<label for="12b" class="escolha">Discordo Parcialmente</label>
 				</li>
 				<li class="resposta-item">
@@ -67,16 +67,16 @@
 					<label for="12c" class="escolha">Neutro / Não Sei</label>
 				</li>
 				<li class="resposta-item">
-					<input type="radio" name="question12" class="radio-btn" value="1" id="12d" />
+					<input type="radio" name="question12" class="radio-btn" value="-1" id="12d" />
 					<label for="12d" class="escolha">Concordo Parcialmente</label>
 				</li>
 				<li class="resposta-item">
-					<input type="radio" name="question12" class="radio-btn" value="2" id="12e" />
+					<input type="radio" name="question12" class="radio-btn" value="-2" id="12e" />
 					<label for="12e" class="escolha">Concordo Totalmente</label>
 				</li>
 			</ul>
 
-			<label for="question13" class="questao"><span class="questao-numero">13</span> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras tortor nunc, aliquam vitae laoreet blandit, laoreet eget felis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras tortor nunc, aliquam vitae laoreet blandit, laoreet eget felis?</label>
+			<label for="question13" class="questao"><span class="questao-numero">13</span> Ninguém escolheu nascer em seu país, portanto, é tolice se orgulhar disso. Nem sempre devemos apoiar o Brasil, precisamos analisar cada caso para saber se ele está certo ou errado.</label>
 			<ul class="resposta">
 				<li class="resposta-item">
 					<input type="radio" name="question13" class="radio-btn" value="-2" id="13a" required />
@@ -100,14 +100,14 @@
 				</li>
 			</ul>
 
-			<label for="question14" class="questao"><span class="questao-numero">14</span> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras tortor nunc, aliquam vitae laoreet blandit, laoreet eget felis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras tortor nunc, aliquam vitae laoreet blandit, laoreet eget felis?</label>
+			<label for="question14" class="questao"><span class="questao-numero">14</span> Muitas mulheres usam roupas inapropriadas que podem prejudicar até a elas mesmas, aumentando o risco de estupro, por exemplo.</label>
 			<ul class="resposta">
 				<li class="resposta-item">
-					<input type="radio" name="question14" class="radio-btn" value="-2" id="14a" required />
+					<input type="radio" name="question14" class="radio-btn" value="2" id="14a" required />
 					<label for="14a" class="escolha">Discordo Totalmente</label>
 				</li>
 				<li class="resposta-item">
-					<input type="radio" name="question14" class="radio-btn" value="-1" id="14b" />
+					<input type="radio" name="question14" class="radio-btn" value="1" id="14b" />
 					<label for="14b" class="escolha">Discordo Parcialmente</label>
 				</li>
 				<li class="resposta-item">
@@ -115,23 +115,23 @@
 					<label for="14c" class="escolha">Neutro / Não Sei</label>
 				</li>
 				<li class="resposta-item">
-					<input type="radio" name="question14" class="radio-btn" value="1" id="14d" />
+					<input type="radio" name="question14" class="radio-btn" value="-1" id="14d" />
 					<label for="14d" class="escolha">Concordo Parcialmente</label>
 				</li>
 				<li class="resposta-item">
-					<input type="radio" name="question14" class="radio-btn" value="2" id="14e" />
+					<input type="radio" name="question14" class="radio-btn" value="-2" id="14e" />
 					<label for="14e" class="escolha">Concordo Totalmente</label>
 				</li>
 			</ul>
 
-			<label for="question15" class="questao"><span class="questao-numero">15</span> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras tortor nunc, aliquam vitae laoreet blandit, laoreet eget felis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras tortor nunc, aliquam vitae laoreet blandit, laoreet eget felis?</label>
+			<label for="question15" class="questao"><span class="questao-numero">15</span> Cotas raciais nas universidades públicas são ações necessárias no contexto atual.</label>
 			<ul class="resposta">
 				<li class="resposta-item">
-					<input type="radio" name="question15" class="radio-btn" value="-2" id="15a" required />
+					<input type="radio" name="question15" class="radio-btn" value="2" id="15a" required />
 					<label for="15a" class="escolha">Discordo Totalmente</label>
 				</li>
 				<li class="resposta-item">
-					<input type="radio" name="question15" class="radio-btn" value="-1" id="15b" />
+					<input type="radio" name="question15" class="radio-btn" value="1" id="15b" />
 					<label for="15b" class="escolha">Discordo Parcialmente</label>
 				</li>
 				<li class="resposta-item">
@@ -139,11 +139,11 @@
 					<label for="15c" class="escolha">Neutro / Não Sei</label>
 				</li>
 				<li class="resposta-item">
-					<input type="radio" name="question15" class="radio-btn" value="1" id="15d" />
+					<input type="radio" name="question15" class="radio-btn" value="-1" id="15d" />
 					<label for="15d" class="escolha">Concordo Parcialmente</label>
 				</li>
 				<li class="resposta-item">
-					<input type="radio" name="question15" class="radio-btn" value="2" id="15e" />
+					<input type="radio" name="question15" class="radio-btn" value="-2" id="15e" />
 					<label for="15e" class="escolha">Concordo Totalmente</label>
 				</li>
 			</ul>
