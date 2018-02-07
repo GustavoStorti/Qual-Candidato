@@ -1,7 +1,48 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title></title>
+	<meta charset="UTF-8"/>
+	<title>DD</title>
+	<link rel="stylesheet" type="text/css" href="styles/resetar.css"/>
+	<style type="text/css"> 
+	@import url('https://fonts.googleapis.com/css?family=Nunito');
+	@import url('https://fonts.googleapis.com/css?family=Patua+One');
+	h2 {
+		margin: 30px 0;
+		font-size: 40px;
+		font-family: 'Patua One', sans-serif;
+		text-align: center;
+		padding: 1%;
+	}
+	p{
+		font-size: 18px;
+		font-family: 'Patua One', sans-serif;
+		margin-bottom: 30px;
+	}
+	figure {
+		text-align: center;
+		padding-bottom: 30px;
+	}
+	img {
+		width: auto;
+		max-width: 100%;
+	}
+	section {
+		max-width: 90%;
+		color: #fff;
+		box-sizing: border-box;
+		margin: 30px auto;
+		padding: 10px 20px;
+		background: rgba(0,0,0,0.3);
+		border-radius: 8px;
+	}
+	a {
+		font-family: 'Patua One', sans-serif;
+		color: #fff;
+		text-align: center;
+		font-size: 20px;
+	}
+</style>
 </head>
 <body>
 	<?php 
@@ -33,9 +74,6 @@
 	$_SESSION['x'] = $x;
 	$_SESSION['y'] = $y;
 
-	echo "<h3>X: ".$_SESSION['x']." / Y: ".$_SESSION['y']."</h1>";
-
-	// Salva no banco de dados
 	//Conecta ao banco de dados
 	$mysqli = new mysqli("localhost", "root", "123456", "teste");
 
@@ -43,6 +81,17 @@
 
 	$mysqli->query($add);
 	?>
-	<img src="teste-politico-img.php">
+	<section>
+		<h2>Resultado</h2>
+		<p>
+			Como os candidatos ainda não estão bem definidos, exibiremos abaixo apenas o seu resultado individual. Volte em breve e veja o resultado completo, com os pré-candidatos inseridos.
+		</p>
+		<figure>
+			<img src="teste-politico-img.php">
+			<figcaption>Colocar descrição.</figcaption>
+		</figure>
+		<br/>
+		<a href="teste1.php"><div>Fazer o teste novamente</div></a>
+	</section>
 </body>
 </html>

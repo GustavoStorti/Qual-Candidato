@@ -1,6 +1,5 @@
-<link rel="stylesheet" type="text/css" href="styles/fontes.css"/>
 <style type="text/css">
-
+@import url('https://fonts.googleapis.com/css?family=Nunito');
 p,a {
 	font-family: 'Nunito', sans-serif;
 	color: #fff;
