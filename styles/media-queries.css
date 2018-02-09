@@ -1,5 +1,9 @@
 /*AJUSTAAAAAAAAAAAAR*/ 
 @media screen and (max-width: 299px) {
+  .cabecalho {
+    background: url("../images/palacio-da-alvorada-1201.jpg") no-repeat 50% 50%;
+  }
+
   .cabecalho hgroup {
     font-size: 0.3em;
   }
@@ -30,6 +34,10 @@
 }
 
 @media screen and (min-width: 300px) and (max-width: 359px) {
+  .cabecalho {
+    background: url("../images/palacio-da-alvorada-1201.jpg") no-repeat 50% 50%;
+  }
+
   .cabecalho hgroup {
     font-size: 0.5em;
   }
@@ -59,6 +67,10 @@
 }
 
 @media screen and (min-width: 360px) and (max-width: 420px) {
+  .cabecalho {
+    background: url("../images/palacio-da-alvorada-1201.jpg") no-repeat 50% 50%;
+  }
+
   .cabecalho hgroup {
     font-size: 0.6em;
   }
@@ -88,6 +100,10 @@
 }
 
 @media screen and (min-width: 421px) and (max-width: 600px) {
+  .cabecalho {
+    background: url("../images/palacio-da-alvorada-600.jpg") no-repeat 50% 50%;
+  }
+
   .cabecalho hgroup {
     font-size: 0.7em;
   }
@@ -117,6 +133,10 @@
 }
 
 @media screen and (min-width: 601px) and (max-width: 1000px) {
+  .cabecalho {
+    background: url("../images/palacio-da-alvorada-1000.jpg") no-repeat 50% 50%;
+  }
+
   .cabecalho hgroup {
     font-size: 0.8em;
   }
@@ -138,5 +158,29 @@
 
   .test-iframe { /*Ajustar deçpois de mudar questoes*/
     height: 1900px;
+  }
+}
+
+@media screen and (min-width: 1001px) and (max-width: 1366px) {
+  .cabecalho {
+    background: url("../images/palacio-da-alvorada-1366.jpg") no-repeat 50% 50%;
+  }
+}
+
+@media screen and (min-width: 1367px) and (max-width: 1440px) {
+  .cabecalho {
+    background: url("../images/palacio-da-alvorada-1440.jpg") no-repeat 50% 50%;
+  }
+}
+
+@media screen and (min-width: 1441px) and (max-width: 1920px) {
+  .cabecalho {
+    background: url("../images/palacio-da-alvorada-1920.jpg") no-repeat 50% 50%;
+  }
+}
+
+@media screen and (min-width: 1921px) {
+  .cabecalho {
+    background: url("../images/palacio-da-alvorada-3000.jpg") no-repeat 50% 50%;
   }
 }

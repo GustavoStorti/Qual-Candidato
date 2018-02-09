@@ -42,6 +42,10 @@
 		text-align: center;
 		font-size: 20px;
 	}
+	strong {
+		font-weight: 900;
+		font-size: 22px;
+	}
 </style>
 </head>
 <body>
@@ -87,8 +91,8 @@
 			Como os candidatos ainda não estão bem definidos, exibiremos abaixo apenas o seu resultado individual. Volte em breve e veja o resultado completo, com os pré-candidatos inseridos.
 		</p>
 		<figure>
-			<img src="teste-politico-img.php">
-			<figcaption>Colocar descrição.</figcaption>
+			<img src="teste-politico-img.php" alt="Diagrama político com o resultado do teste feito">
+			<figcaption><strong>Coordenadas econômicas: <?php echo $x; ?><br/>Coordenadas individuais: <?php echo $y; ?></strong></figcaption>
 		</figure>
 		<br/>
 		<a href="teste1.php"><div>Fazer o teste novamente</div></a>
