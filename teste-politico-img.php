@@ -11,7 +11,6 @@ $marca = imagecreatefrompng("images/ponto.png");
 imagecopymerge($fundo, $marca, $x, $y, 0, 0, 20, 20, 100);
 
 header('Content-type: image/jpeg');
-
 imagejpeg($fundo, null, 100);
 
 ?>

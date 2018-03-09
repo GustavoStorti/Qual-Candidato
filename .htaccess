@@ -1,4 +1,8 @@
 RewriteEngine On
+RewriteRule ^index\.html$ / [R=301,L]
+RewriteRule ^(.*)/index\.html$ /$1/ [R=301,L]
+
+RewriteEngine On
 RewriteCond %{HTTPS} off [OR]
 RewriteCond %{HTTP_HOST} !^www\.qualcandidato.com.br$ [NC]
 RewriteRule ^(.*)$ https://www.qualcandidato.com.br/$1 [L,R=301]
@@ -48,3 +52,4 @@ BrowserMatch ^Mozilla/4\.0[678] no-gzip
 BrowserMatch \bMSIE !no-gzip !gzip-only-text/html
 </IfModule>
 ## GZIP ##
+
