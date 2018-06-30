@@ -24,7 +24,7 @@ p,a {
 <?php 
 $to = "contato@qualcandidato.com.br";
 $subject = "Contato - ".$_POST['motivo'];
-$message = "NOME:  ".$_POST['name']."\nE-MAIL:  ".$_POST['email']."\nMENSAGEM:\n".$_POST['message'];
+$message = "NOME:  ".$_POST['nome']."\nE-MAIL:  ".$_POST['email']."\nMENSAGEM:    ".$_POST['mensagem'];
 $header = "From: envio@qualcandidato.com.br\r\nContent-Type: text/plain; charset=utf-8\r\n";
 
 if (mail($to, $subject, $message, $header)) { ?>	

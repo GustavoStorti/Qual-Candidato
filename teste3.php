@@ -76,8 +76,8 @@
 				</li>
 			</ul>
 
-			<label for="question13" class="questao"><span class="questao-numero">13</span> Ninguém escolheu nascer em seu país, portanto, é tolice se orgulhar disso. Nem sempre devemos apoiar o Brasil, precisamos analisar cada caso para saber se ele está certo ou errado.</label>
-			<ul class="resposta">
+			<label for="question13" class="questao"><span class="questao-numero">13</span> Ninguém escolheu nascer em seu país; portanto, é tolice orgulhar-se disso. Nem sempre devemos apoiar o Brasil, precisamos analisar cada caso para saber se ele está certo ou errado.</label>
+			<ul class="resposta"> 
 				<li class="resposta-item">
 					<input type="radio" name="question13" class="radio-btn" value="-10" id="13a" required />
 					<label for="13a" class="escolha">Discordo Totalmente</label>
@@ -100,7 +100,7 @@
 				</li>
 			</ul>
 
-			<label for="question14" class="questao"><span class="questao-numero">14</span> Muitas mulheres usam roupas inapropriadas que podem prejudicar até a elas mesmas, aumentando o risco de estupro, por exemplo.</label>
+			<label for="question14" class="questao"><span class="questao-numero">14</span> Muitas mulheres usam roupas inapropriadas que podem as prejudicar, aumentando o risco de estupro, por exemplo.</label>
 			<ul class="resposta">
 				<li class="resposta-item">
 					<input type="radio" name="question14" class="radio-btn" value="10" id="14a" required />

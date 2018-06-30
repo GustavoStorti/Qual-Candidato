@@ -51,7 +51,7 @@
 			<ul class="resposta">
 				<li class="resposta-item">
 					<input type="radio" name="question2" class="radio-btn" value="-10" id="2a" />
-					<label for="2a" class="escolha">Discordo Parcialmente</label>
+					<label for="2a" class="escolha">Discordo Totalmente</label>
 				</li>
 				<li class="resposta-item">
 					<input type="radio" name="question2" class="radio-btn" value="-5" id="2b" />
